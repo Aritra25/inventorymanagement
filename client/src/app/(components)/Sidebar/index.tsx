@@ -74,7 +74,12 @@ const Sidebar = () => {
   return (
     <div className={sidebarClassNames}>
       <div className="flex gap-3 justify-between items-center pt-8 md:justify-normal">
-        <div className="">logo</div>
+        <Image 
+        src="https://inventorymanagement25.s3.us-east-1.amazonaws.com/logo.png"
+        width={27}
+        height={27}
+        alt="amstock-logo"
+        />
         <h1 className="font-extrabold text-2xl">AMSTOCK</h1>
 
         <button
